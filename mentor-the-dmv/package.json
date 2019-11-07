@@ -12,7 +12,12 @@
     "react-scripts": "3.2.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
+
   },
+  "babel": {
+    "presets": ["@babel/preset-env", "@babel/preset-react"]
+  },
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
